@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import BaseLayout from '../components/layouts/BaseLayout'
   
-export default class Index extends Component {
+export default class Cv extends Component {
     render() {
         return (
             <BaseLayout>
-                <h1>Index page</h1>
+                <h1>Cv page</h1>
             </BaseLayout>
         )
     }
