@@ -1,0 +1,27 @@
+.portfolio-app.dark-mode {
+
+    .header, .home {
+
+        &_right {
+            background-color: $black;
+            color: white;
+
+            .toggle-mode {
+                background: $black2;
+                border: 1px solid $secondary-light;
+                color: $secondary-light;
+                .fa-moon {
+                    display: none;
+                }
+
+                .fa-sun {
+                    margin-left: 16px;
+                }
+            }
+        }
+
+        &_left {
+            background-color: $primary-light;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.portfolio-app.light-mode {
+
+    .header {
+
+        &_right {
+            background-color: $white;
+            color: $black;
+
+            .toggle-mode {
+                background: $white2;
+                border: 1px solid $secondary-dark;
+                color: $secondary-dark;
+                .fa-sun {
+                    display: none;
+                }
+
+                .fa-moon {
+                    margin-right: 16px;
+                }
+            }
+        }
+
+        &_left {
+            background-color: $primary-dark;
+        }
+    }
+
+    .home {
+
+        &_right {
+            background-color: $white;
+            color: $black;
+        }
+
+        &_left {
+            background-color: $primary-dark;
+        }
+    }
+}
