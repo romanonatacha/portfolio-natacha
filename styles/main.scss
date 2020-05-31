@@ -2,6 +2,7 @@
 @import './styles';
 @import './darkMode';
 @import './lightMode';
+@import './textAnimation';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 @import "~bootstrap/scss/bootstrap";
 
@@ -13,16 +14,34 @@
 
         &_right {
             width: 60%;
-            padding: 32px 64px;
+            padding: 40px 64px;
 
             .toggle-mode {
                 border: none;
                 border-radius: 16px;
                 background: transparent;
                 width: 50px;
+                cursor: pointer;
+
+                .fa-moon {
+                    margin-right: 16px;
+                }
+
+                .fa-sun {
+                    margin-left: 16px;
+                }
+
 
                 &:focus {
                     outline: 0;
+                }
+
+                &:hover .fa-moon {
+                    margin-right: 12px;
+                }
+
+                &:hover .fa-sun {
+                    margin-left: 12px;
                 }
             }
         }
@@ -31,6 +50,49 @@
             width: 40%;
         }
     }
+
+    .header-mb {
+        color: $white;
+
+        .navbar-toggler {
+            border-color: rgba(255, 255, 255, 0.5%);
+            width: 40px;
+            padding: 0;
+
+            &-icon {
+                filter: invert(1);
+                width: 25px;
+            }
+
+            &:focus {
+                outline: 0;
+            }
+        }
+
+        .toggle-mode {
+            border: none;
+            border-radius: 16px;
+            background: transparent;
+            width: 50px;
+            cursor: pointer;
+
+            background: $black2;
+            color: $secondary-light;
+
+            .fa-moon {
+                margin-right: 18px;
+            }
+
+            .fa-sun {
+                margin-left: 18px;
+            }
+
+            &:focus {
+                outline: 0;
+            }
+        }
+    }
+
     .home {
         width: 100%;
         display: flex;

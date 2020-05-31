@@ -1,6 +1,6 @@
 .portfolio-app.dark-mode {
 
-    .header, .home {
+    .header {
 
         &_right {
             background-color: $black;
@@ -8,16 +8,35 @@
 
             .toggle-mode {
                 background: $black2;
-                border: 1px solid $secondary-light;
+                border: 2px solid $secondary-light;
                 color: $secondary-light;
                 .fa-moon {
                     display: none;
                 }
-
-                .fa-sun {
-                    margin-left: 16px;
-                }
             }
+        }
+
+        &_left {
+            background-color: $primary-light;
+        }
+    }
+
+    .header-mb {
+        background-color: $primary-light;
+        color: $white;
+
+        .toggle-mode {
+            .fa-moon {
+                display: none;
+            }
+        }
+    }
+
+    .home {
+
+        &_right {
+            background-color: $black;
+            color: white;
         }
 
         &_left {

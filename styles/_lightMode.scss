@@ -8,20 +8,26 @@
 
             .toggle-mode {
                 background: $white2;
-                border: 1px solid $secondary-dark;
+                border: 2px solid $secondary-dark;
                 color: $secondary-dark;
                 .fa-sun {
                     display: none;
-                }
-
-                .fa-moon {
-                    margin-right: 16px;
                 }
             }
         }
 
         &_left {
             background-color: $primary-dark;
+        }
+    }
+
+    .header-mb {
+        background-color: $primary-dark;
+
+        .toggle-mode {
+            .fa-sun {
+                display: none;
+            }
         }
     }
 
