@@ -1,5 +1,7 @@
 .portfolio-app.dark-mode {
 
+    background-color: $black;
+
     .header {
 
         &_right {
@@ -36,7 +38,7 @@
         }
     }
 
-    .home {
+    .base {
 
         &_right {
             background-color: $black;

@@ -1,5 +1,7 @@
 .portfolio-app.light-mode {
 
+    background-color: $white;
+
     .header {
 
         &_right {
@@ -34,7 +36,7 @@
         }
     }
 
-    .home {
+    .base {
 
         &_right {
             background-color: $white;

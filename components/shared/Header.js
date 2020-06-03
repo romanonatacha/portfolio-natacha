@@ -28,9 +28,6 @@ export default class Header extends Component {
         return (
             <>
                 <div className="header mb_hide">
-                    <div className="header_left white">
-                        <div className="text-right padding32 font-xl x-bold">NATACHA ROMANO</div>
-                    </div>
                     <div className="header_right text-right light">
                         {menu.map((item, i) => (
                             <Link key={i} href={item.url}>

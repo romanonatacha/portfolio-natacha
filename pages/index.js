@@ -6,11 +6,7 @@ export default class Index extends Component {
     render() {
 
         return (
-            <BaseLayout>
-                <div className="home">
-                    <div className="home_left"></div>
-                    <div className="home_right"></div>
-                </div>
+            <BaseLayout title="Natacha Romano">
             </BaseLayout>
         )
     }

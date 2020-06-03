@@ -1,9 +1,4 @@
   #words {
-    // position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     margin: auto;
     height: 85%;
     overflow: hidden;
@@ -31,7 +26,6 @@
     }
   }
   .word {
-    // position: absolute;
     width: 70%;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -347,20 +341,3 @@
             animation-duration: 146s;
     height: 7.84090909%;
   }
-  html,
-  body {
-    margin: 0;
-    padding: 0;
-  }
-  html {
-    height: 100%;
-  }
-  body {
-    min-height: 100%;
-  }
-  body {
-    color: #004712;
-    background-color: #f3f2ff;
-    background-image: radial-gradient(circle, #f3f2ff 0%, #f8f6f6 70%, #eaeaea 100%);
-  }
-  

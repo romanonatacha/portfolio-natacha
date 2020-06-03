@@ -1,5 +1,3 @@
-import { Fragment, useState } from 'react'
-import Header from '../shared/Header'
 import '../../styles/main.scss'
 import '@fortawesome/fontawesome-free/js/fontawesome';
 import '@fortawesome/fontawesome-free/js/solid';
@@ -8,16 +6,16 @@ import '@fortawesome/fontawesome-free/js/brands';
 
 const BaseLayout = (props) => {
 
-    const [darkMode, setDarkMode] = useState(false)
-
-    const handleClick = () => {
-        setDarkMode(prevMode => !prevMode)
-    }
-
     return (
-        <div className={`portfolio-app ${darkMode ? "dark-mode" : "light-mode"}`}>
-            <Header handleClick={handleClick} />
-            {props.children}
+        <div>
+            <div className="base">
+                <div className="base_left">
+                    <div className="text-right padding32 font-xl x-bold white uppercase">{props.title}</div>
+                </div>
+                <div className="base_right">
+                    {props.children}
+                </div>
+            </div>
         </div>
     )
 }
