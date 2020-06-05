@@ -21,6 +21,7 @@ li {
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    overflow: hidden;
 }
 
 /* boxes and containers */
@@ -113,6 +114,10 @@ body {
     }
     
     /* typography */
+
+    .font-xxl {
+        font-size: 38px;
+    }
     
     .font-xl {
         font-size: 32px;
