@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 a, a:hover {
     text-decoration: none !important;
     color: unset !important;
@@ -21,7 +25,6 @@ li {
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    overflow: hidden;
 }
 
 /* boxes and containers */
@@ -241,6 +244,10 @@ body {
     
     .top40{
         margin-top: 40px;
+    }
+
+    .top64 {
+        margin-top: 64px;
     }
     
     .margin16 {

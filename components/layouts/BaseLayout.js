@@ -10,7 +10,7 @@ const BaseLayout = (props) => {
         <div>
             <div className="base">
                 <div className="base_left">
-                    <div className="text-right padding32 font-xl x-bold white uppercase">{props.title}</div>
+                    <div className="text-right padding32 font-xl x-bold white uppercase title">{props.title}</div>
                 </div>
                 <div className="base_right">
                     {props.children}
