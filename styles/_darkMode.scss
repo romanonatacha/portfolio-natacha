@@ -53,4 +53,24 @@
     .default {
         color: $white;
     }
+
+    .portfolio {
+        .card {
+            background-color: $black2;
+            color: $white;
+
+            .badge {
+                background-color: $secondary-light;
+                color: $black2;
+            }
+
+            .git {
+                color: $terciary-light;
+            }
+
+            &:hover {
+                filter: drop-shadow(2px 4px 6px black);
+            }
+        }
+    }
 }

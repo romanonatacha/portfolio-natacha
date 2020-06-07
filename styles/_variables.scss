@@ -13,3 +13,9 @@
     $white2: #f5f5f5;
 
     $gutter: 8px;
+
+    @mixin max767 {
+        @media screen and (max-width: 767px) {
+            @content
+        }
+    }

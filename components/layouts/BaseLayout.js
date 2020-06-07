@@ -13,6 +13,7 @@ const BaseLayout = (props) => {
                     <div className="text-right padding32 font-xl x-bold white uppercase title">{props.title}</div>
                 </div>
                 <div className="base_right">
+                    <div className="dt_hide tb_hide uppercase top64 text-center bold font-xl">{props.title}</div>
                     {props.children}
                 </div>
             </div>
