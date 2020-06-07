@@ -3,7 +3,7 @@
 .skills {
 
   .info {
-    width: max-content;
+    margin: 64px auto;
   }
 
   .items {
@@ -194,6 +194,9 @@
       perspective: 1000px;
       perspective-origin: 50% 50%;
       backface-visibility: visible;
+
+      align-self: center;
+      width: 20em;
   }
 
   $faceColor: rgba($white, .3);
@@ -365,6 +368,38 @@
   input:checked ~ .info {
     display: none;
   }
+
+  input[id='html']:checked ~ span label[for="html"],
+  input[id='js']:checked ~ span label[for="js"],
+  input[id='css']:checked ~ span label[for="css"],
+  input[id='react']:checked ~ span label[for="react"],
+  input[id='angular']:checked ~ span label[for="angular"],
+  input[id='jquery']:checked ~ span label[for="jquery"],
+  input[id='python']:checked ~ span label[for="python"],
+  input[id='bootstrap']:checked ~ span label[for="bootstrap"],
+  input[id='dash']:checked ~ span label[for="dash"],
+  input[id='git']:checked ~ span label[for="git"],
+  input[id='sass']:checked ~ span label[for="sass"],
+  input[id='gulp']:checked ~ span label[for="gulp"] {
+
+    animation: var(--animation) 2s forwards;
+    letter-spacing: 8px;
+    text-indent: 10px;
+    opacity: 1;
+    
+    &:before {
+      background: var(--radial-bg);
+      bottom: -50%;
+      left: -50%;
+      pointer-events: none;
+      right: -50%;
+      top: -50%;
+    }
+  }
+
+  
+
+
   input[id='html']:checked ~ .chart
   {
       @extend .bar.cyan;

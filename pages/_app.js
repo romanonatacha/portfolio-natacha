@@ -15,13 +15,22 @@ const MyApp = ({ Component, pageProps }) => {
     //   return { ...appProps }
     // }
 
+    const time = new Date().getHours();
 
-    const [darkMode, setDarkMode] = useState(false)
+    let modeState = true;
+
+    if (time > 17) {
+        modeState = true;
+    } else {
+        modeState = false;
+    }
+
+    const [darkMode, setDarkMode] = useState(modeState)
 
     const handleClick = () => {
         setDarkMode(prevMode => !prevMode)
-        console.log(darkMode);
     }
+
 
     return (
         <div className={`portfolio-app ${darkMode ? "dark-mode" : "light-mode"}`}>
