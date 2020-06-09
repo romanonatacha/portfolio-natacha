@@ -12,7 +12,7 @@ export default class Skills extends Component {
                             <>
                                 <input key={i} type="radio" name="switch-skill" id={item.name} />
                                 <span>
-                                    <label name="switch-skill" htmlFor={item.name} className={`item ${item.class} font-xl`}>{item.name}</label>
+                                    <label name="switch-skill" htmlFor={item.name} className={`item ${item.class} font-md`}>{item.name}</label>
                                 </span>
                             </>
                         ))}
@@ -34,7 +34,7 @@ export default class Skills extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="info top64 font-lg light">click on the skills to see the level</div>
+                        <div className="info top64 font-md light uppercase">click on the skills to see the level</div>
                     </div>
                 </div>
             </BaseLayout >
