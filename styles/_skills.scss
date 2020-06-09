@@ -4,12 +4,13 @@
 
   .info {
     margin: 64px auto;
+    width: 100%;
   }
 
   .items {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
@@ -194,7 +195,7 @@
       perspective: 1000px;
       perspective-origin: 50% 50%;
       backface-visibility: visible;
-
+      flex-basis: 60%;
       align-self: center;
       width: 20em;
   }
@@ -370,7 +371,7 @@
   }
 
   input[id='html']:checked ~ span label[for="html"],
-  input[id='js']:checked ~ span label[for="js"],
+  input[id='javascript']:checked ~ span label[for="javascript"],
   input[id='css']:checked ~ span label[for="css"],
   input[id='react']:checked ~ span label[for="react"],
   input[id='angular']:checked ~ span label[for="angular"],
@@ -405,7 +406,7 @@
       @extend .bar.cyan;
       @extend .bar-100;
   }
-  input[id='js']:checked ~ .chart
+  input[id='javascript']:checked ~ .chart
   {
       @extend .bar.yellow;
       @extend .bar-75;
@@ -470,6 +471,17 @@
       @extend .bar-50;
   }
 
+  input[id='node']:checked ~ .chart
+  {
+      @extend .bar.cyan;
+      @extend .bar-25;
+  }
+
+  input[id='typescript']:checked ~ .chart
+  {
+      @extend .bar.yellow;
+      @extend .bar-50;
+  }
  
 }
 

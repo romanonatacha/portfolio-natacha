@@ -1,5 +1,21 @@
 import React, { useState } from 'react';
 import Header from '../components/shared/Header'
+import { Router } from 'next/dist/client/router';
+import NProgress from 'nprogress';
+
+NProgress.configure({ showSpinner: false, trickleRate: 0.1, trickleSpeed: 300 });
+
+Router.events.on('routeChangeStart', () => {
+    NProgress.start()
+})
+
+Router.events.on('routeChangeComplete', () => {
+    NProgress.done();
+})
+
+Router.events.on('routeChangeError', () => {
+    NProgress.done();
+})
 
 const MyApp = ({ Component, pageProps }) => {
 
@@ -19,7 +35,7 @@ const MyApp = ({ Component, pageProps }) => {
 
     let modeState = true;
 
-    if (time > 17) {
+    if (time > 17 || time < 6) {
         modeState = true;
     } else {
         modeState = false;
@@ -39,4 +55,5 @@ const MyApp = ({ Component, pageProps }) => {
         </div>
     )
 }
+
 export default MyApp;
