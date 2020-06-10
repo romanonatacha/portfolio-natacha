@@ -2,7 +2,7 @@ const projects = [
     {
         'image': '/images/trich.gif',
         'title': 'trich.ai',
-        'description': '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco',
+        'description': 'Institutional website created for the company trich.ai.',
         'link': 'https://trich.ai',
         'git': 'https://github.com/romanonatacha/trich.ai',
         'badges': [
@@ -14,7 +14,7 @@ const projects = [
     {
         'image': '/images/weather.gif',
         'title': 'Weather Forecast',
-        'description': 'laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'description': 'Personal weather forecasting project. The application makes a query in an API and returns the values of the weather forecast of the city that was consulted.',
         'link': 'https://romanonatacha.github.io/weather-forecast/',
         'git': 'https://github.com/romanonatacha/weather-forecast',
         'badges': [
@@ -26,7 +26,7 @@ const projects = [
     {
         'image': '/images/artists.gif',
         'title': 'Artists Info',
-        'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco',
+        'description': 'Personal project. The application makes a query in an API of artists, and returns information about the artist that was consulted, such as hometown, musical genre, discography and biography.',
         'link': 'https://romanonatacha.github.io/artists-info',
         'git': 'https://github.com/romanonatacha/artists-info',
         'badges': [
@@ -38,7 +38,7 @@ const projects = [
     {
         'image': '/images/trich-p.gif',
         'title': 'trich.ai portfolio',
-        'description': 'niam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non',
+        'description': 'Portfolio built for the company trich.ai, to show the projects carried out by the company.',
         'link': 'https://trich-portfolio.herokuapp.com/',
         'git': 'https://github.com/romanonatacha/trich-portfolio',
         'badges': [
@@ -50,7 +50,7 @@ const projects = [
     {
         'image': '/images/map.gif',
         'title': "Vila Pompeia Food n' Bar",
-        'description': 'roident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'description': 'Personal project. The application uses the Google Maps API and the Fousquare API, makes a query according to the neighborhood "Vila Pompeia", and returns the bars and restaurants in the region, also includes a filter to do the search by the name of the establishment.',
         'link': 'https://romanonatacha.github.io/vila-pompeia-map',
         'git': 'https://github.com/romanonatacha/vila-pompeia-map',
         'badges': [
@@ -62,7 +62,7 @@ const projects = [
     {
         'image': '/images/library.gif',
         'title': 'Dash trich components',
-        'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+        'description': 'Ope source library UI components from the company trich.ai, to be used in Dash applications.',
         'link': 'https://romanonatacha.github.io/dash_trich_components/',
         'git': 'https://github.com/romanonatacha/dash_trich_components',
         'badges': [
