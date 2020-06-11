@@ -1,7 +1,14 @@
 import React, { useState } from 'react';
+import Head from 'next/head'
 import Header from '../components/shared/Header'
 import { Router } from 'next/dist/client/router';
 import NProgress from 'nprogress';
+
+import '../styles/main.scss'
+import '@fortawesome/fontawesome-free/js/fontawesome';
+import '@fortawesome/fontawesome-free/js/solid';
+import '@fortawesome/fontawesome-free/js/regular';
+import '@fortawesome/fontawesome-free/js/brands';
 
 NProgress.configure({ showSpinner: false, trickleRate: 0.1, trickleSpeed: 300 });
 
@@ -49,10 +56,15 @@ const MyApp = ({ Component, pageProps }) => {
 
 
     return (
-        <div className={`portfolio-app ${darkMode ? "dark-mode" : "light-mode"}`}>
-            <Header handleClick={handleClick} />
-            <Component {...pageProps} />
-        </div>
+        <>
+            <Head>
+                <title>natacha romano | portfolio</title>
+            </Head>
+            <div className={`portfolio-app ${darkMode ? "dark-mode" : "light-mode"}`}>
+                <Header handleClick={handleClick} />
+                <Component {...pageProps} />
+            </div>
+        </>
     )
 }
 

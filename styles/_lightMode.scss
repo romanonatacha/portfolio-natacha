@@ -49,7 +49,7 @@
     }
 
     .default {
-        color: $black;
+        color: $black2;
     }
 
     .portfolio {
@@ -71,6 +71,19 @@
             }
         }
     }
+    .skills .bar .face {
+        background-color: rgba(216, 216, 216, 0.3)
+    }
+
+    .skills-levels {
+        background-color: $white2;
+    }
+
+    .about {
+        background-color: $secondary-dark;
+        color: $white
+    }
+
 
     .footer {
         background-color: $terciary-dark;

@@ -7,7 +7,7 @@ export default class Skills extends Component {
         return (
             <BaseLayout title="Skills">
                 <div className="boxed skills">
-                    <div className="items">
+                    <div className="items mb_hide">
                         {skills && skills.map((item, i) => (
                             <>
                                 <input key={i} type="radio" name="switch-skill" id={item.name} />
@@ -16,7 +16,8 @@ export default class Skills extends Component {
                                 </span>
                             </>
                         ))}
-                        <div className="chart margin-auto top64">
+                        <div className="break"></div>
+                        <div className="chart margin-auto top24">
                             <div className="bar bar-75 white">
                                 <div className="face top">
                                     <div className="growing-bar"></div>
@@ -34,7 +35,25 @@ export default class Skills extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="info top64 font-md light uppercase">click on the skills to see the level</div>
+                        <div className="info font-md light uppercase">click on the skills to see the level</div>
+                    </div>
+                    <div className="skills-levels default">
+                        <div className="skills-box">
+                            {skills && skills.map((item, i) => (
+                                    <div className="skill padding24">
+                                        <span className="light uppercase default">{item.name}</span>
+                                        <div>
+                                            <div className="chart2 margin-auto">
+                                                <div className={`bar top16 ${item.bar}`}>
+                                                    <div className="face">
+                                                        <div className="growing-bar"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ))}
+                        </div>
                     </div>
                 </div>
             </BaseLayout >

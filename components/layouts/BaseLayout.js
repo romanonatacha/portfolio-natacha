@@ -1,8 +1,3 @@
-import '../../styles/main.scss'
-import '@fortawesome/fontawesome-free/js/fontawesome';
-import '@fortawesome/fontawesome-free/js/solid';
-import '@fortawesome/fontawesome-free/js/regular';
-import '@fortawesome/fontawesome-free/js/brands';
 import SocialBar from '../shared/SocialBar';
 import Footer from '../shared/Footer';
 
@@ -16,7 +11,7 @@ const BaseLayout = (props) => {
                     <SocialBar />
                 </div>
                 <div className="base_right">
-                    <div className="dt_hide tb_hide uppercase top64 text-center bold font-xl">{props.title}</div>
+                    <div className="dt_hide tb_hide uppercase top64 text-center bold font-xl default">{props.title}</div>
                     <div className="height100vh">
                         {props.children}
                     </div>
