@@ -6,9 +6,9 @@ export default class Index extends Component {
     render() {
 
         return (
-            <BaseLayout title="Natacha Romano">
+            <BaseLayout title="Natacha Romano" pageClass="index">
                 <div className="boxed">
-                    <img className="rocket" src="/images/rockets.svg"/>
+                    <img className="rocket" src="/images/rockets.svg" />
                 </div>
             </BaseLayout>
         )

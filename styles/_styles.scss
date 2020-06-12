@@ -317,6 +317,10 @@ body {
         .font-xs {
             font-size: 12px;
         }
+
+        .height100vh {
+            min-height: 70vh;
+        }
     }
     
     @media screen and (max-width: 1200px) {

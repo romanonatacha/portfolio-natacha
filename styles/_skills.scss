@@ -3,7 +3,7 @@
 .skills {
 
   .info {
-    margin: 64px auto 80px;
+    margin: 64px auto 0;
     width: 100%;
     opacity: 0.6;
   }
@@ -15,7 +15,8 @@
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
-    margin-bottom: 80px;
+    width: 80%;
+    margin: 0 auto 80px;
   }
   
   .item1 {

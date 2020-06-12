@@ -7,6 +7,7 @@
 @import './portfolio';
 @import './socialBar';
 @import './about';
+@import './contact';
 @import './nprogress';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 @import "~bootstrap/scss/bootstrap";
@@ -63,6 +64,7 @@
 
     .header-mb {
         color: $white;
+        z-index: 9;
 
         .navbar-toggler {
             border-color: rgba(255, 255, 255, 0.5%);

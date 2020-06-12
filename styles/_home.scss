@@ -1,11 +1,29 @@
+.index {
+  .mobile-title {
+    display: none;
+  }
+}
 @keyframes launch {
     0% {transform: translateY(500px);}
     100% {transform: translateY(-500px);}
-  }
+}
   
+@keyframes launchMb {
+  0% {transform: translateY(100px);}
+  100% {transform: translateY(-1000px);}
+}
   .rocket {
     animation: launch 30s ease-in-out infinite normal;
     height: 300px;
     z-index: 999;
     position: fixed;
+
+    @include max767 {
+      height: 250px;
+      position: absolute;
+      bottom: 20px;
+      left: -18px;
+      animation: launchMb 10s ease-in-out;
+      animation-iteration-count: 1;
+    }
   }

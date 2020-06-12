@@ -22,6 +22,10 @@ export default class Header extends Component {
             {
                 title: 'portfolio',
                 url: '/portfolio'
+            },
+            {
+                title: 'contact',
+                url: '/contact'
             }
         ]
 
