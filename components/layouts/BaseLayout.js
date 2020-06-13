@@ -12,7 +12,7 @@ const BaseLayout = (props) => {
                 </div>
                 <div className="base_right">
                     <div className="mobile-title dt_hide tb_hide uppercase top64 text-center bold font-xl default">{props.title}</div>
-                    <div className="height100vh">
+                    <div className="minHeightScreen">
                         {props.children}
                     </div>
                     <Footer />

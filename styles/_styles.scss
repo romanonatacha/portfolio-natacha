@@ -50,8 +50,8 @@ body {
         width: 100%;
     }
     
-    .height100vh {
-        min-height: 100vh;
+    .minHeightScreen{
+        min-height: 90vh;
     }
     
     /* colors */
@@ -316,10 +316,6 @@ body {
         }
         .font-xs {
             font-size: 12px;
-        }
-
-        .height100vh {
-            min-height: 70vh;
         }
     }
     
