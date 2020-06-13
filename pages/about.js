@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import BaseLayout from '../components/layouts/BaseLayout'
-  
+
 export default class About extends Component {
     render() {
         return (
@@ -34,28 +34,28 @@ export default class About extends Component {
                         </div>
                         <div className="hobbies-title default light bottom16">HOBBIES</div>
                         <div className="about hobbies uppercase padding24 font-xs light">
-                        <span className="padding4">
-                            <img src="/images/planet.svg"/>
+                            <span className="padding4">
+                                <img src="/images/planet.svg" />
                             astronomy
                         </span>
-                        <span className="padding4">
-                            <img src="/images/science.svg"/>
+                            <span className="padding4">
+                                <img src="/images/science.svg" />
                             science
                         </span>
-                        <span className="padding4">
-                            <img src="/images/tech.svg"/>
+                            <span className="padding4">
+                                <img src="/images/tech.svg" />
                             tech
                         </span>
-                        <span className="padding4">
-                            <img src="/images/rockets.svg"/>
-                            rockets
+                            <span className="padding4">
+                                <img src="/images/rockets.svg" />
+                            missions
                         </span>
-                        <span className="padding4">
-                            <img src="/images/music.svg"/>
+                            <span className="padding4">
+                                <img src="/images/music.svg" />
                             music
                         </span>
-                        <span className="padding4">
-                            <img src="/images/yoga.svg"/>
+                            <span className="padding4">
+                                <img src="/images/yoga.svg" />
                             yoga
                         </span>
                         </div>

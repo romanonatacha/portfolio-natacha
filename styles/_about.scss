@@ -17,7 +17,7 @@
         img {
             width: 24px;
             height: 24px;
-            vertical-align: sub;
+            vertical-align: bottom;
             margin-right: 8px;
         }
     }
@@ -26,4 +26,7 @@
 .hobbies-title  {
     width: 70%;
     margin: 0 auto;
+    @include max767 {
+        width: 100%;
+    }
 }
