@@ -180,7 +180,7 @@ body {
       font-size: 12px; } }
   @media screen and (max-width: 1200px) {
     .portfolio-app .boxed {
-      width: 70%; } }
+      width: 90%; } }
 
 .portfolio-app.dark-mode {
   background-color: #232323; }
@@ -293,7 +293,7 @@ body {
       white-space: nowrap;
       overflow: hidden;
       /* Ensures the content is not revealed until the animation */
-      border-right: .15em solid orange;
+      border-right: 0.15em solid #7AA9B6;
       /* The typwriter cursor */
       margin: 0 auto 16px;
       /* Gives that scrolling effect as the typing happens */
@@ -328,13 +328,13 @@ body {
   from, to {
     border-color: transparent; }
   50% {
-    border-color: orange; } }
+    border-color: #7AA9B6; } }
 
 @keyframes launch {
   0% {
-    transform: translateY(-500px); }
+    transform: translateY(-800px); }
   100% {
-    transform: translateY(500px); } }
+    transform: translateY(200px); } }
 
 @keyframes launchMb {
   0% {
@@ -1008,12 +1008,15 @@ body {
     .about.hobbies img {
       width: 24px;
       height: 24px;
-      vertical-align: sub;
+      vertical-align: bottom;
       margin-right: 8px; }
 
 .hobbies-title {
   width: 70%;
   margin: 0 auto; }
+  @media screen and (max-width: 767px) {
+    .hobbies-title {
+      width: 100%; } }
 
 .contact #social-sidebar {
   right: 60%; }
@@ -8357,5 +8360,3 @@ a.text-dark:hover, a.text-dark:focus {
           flex-direction: column;
           align-items: center; } }
 
-
-/*# sourceMappingURL=styles.chunk.css.map*/
