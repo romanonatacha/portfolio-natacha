@@ -8,6 +8,13 @@
         padding: 24px;
     }
 
+    &-title  {
+        width: 70%;
+        margin: 0 auto;
+        @include max767 {
+            width: 100%;
+        }
+    }
     
     &.hobbies {
         display: flex;
@@ -22,11 +29,4 @@
         }
     }
     
-}
-.hobbies-title  {
-    width: 70%;
-    margin: 0 auto;
-    @include max767 {
-        width: 100%;
-    }
 }

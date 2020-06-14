@@ -7,6 +7,7 @@ export default class About extends Component {
             <div>
                 <BaseLayout title="About me">
                     <div className="boxed">
+                        <div className="about-title default light bottom16">WHO AM I AND WHAT I DO</div>
                         <div className="about bottom64">
                             <div className="font-sm">
                                 <p>
@@ -32,7 +33,7 @@ export default class About extends Component {
                                 </p>
                             </div>
                         </div>
-                        <div className="hobbies-title default light bottom16">HOBBIES</div>
+                        <div className="about-title default light bottom16">HOBBIES</div>
                         <div className="about hobbies uppercase padding24 font-xs light">
                             <span className="padding4">
                                 <img src="/images/planet.svg" />
