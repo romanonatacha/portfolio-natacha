@@ -38,17 +38,17 @@ const MyApp = ({ Component, pageProps }) => {
     //   return { ...appProps }
     // }
 
-    const time = new Date().getHours();
+    // const time = new Date().getHours();
 
-    let modeState = true;
+    // let modeState = true;
 
-    if (time > 17 || time < 6) {
-        modeState = true;
-    } else {
-        modeState = false;
-    }
+    // if (time > 17 || time < 6) {
+    //     modeState = true;
+    // } else {
+    //     modeState = false;
+    // }
 
-    const [darkMode, setDarkMode] = useState(modeState)
+    const [darkMode, setDarkMode] = useState(true)
 
     const handleClick = () => {
         setDarkMode(prevMode => !prevMode)
