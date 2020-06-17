@@ -45,8 +45,8 @@ body {
     margin: 0 auto; }
   .portfolio-app .total_width {
     width: 100%; }
-  .portfolio-app .height100vh {
-    min-height: 100vh; }
+  .portfolio-app .minHeightScreen {
+    min-height: 90vh; }
   .portfolio-app .white {
     color: #fff; }
   .portfolio-app .right {
@@ -180,7 +180,7 @@ body {
       font-size: 12px; } }
   @media screen and (max-width: 1200px) {
     .portfolio-app .boxed {
-      width: 70%; } }
+      width: 90%; } }
 
 .portfolio-app.dark-mode {
   background-color: #232323; }
@@ -273,17 +273,88 @@ body {
   .portfolio-app.light-mode .footer {
     background-color: #394B87; }
 
+.index {
+  /* DEMO-SPECIFIC STYLES */ }
+  .index .mobile-title {
+    display: none; }
+  @media screen and (max-width: 767px) {
+    .index .boxed {
+      width: 90%; } }
+  .index .typewriter {
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: 0; }
+    @media screen and (max-width: 767px) {
+      .index .typewriter {
+        padding-top: 30%; } }
+    .index .typewriter h2 {
+      text-align: right;
+      font-family: monospace;
+      white-space: nowrap;
+      overflow: hidden;
+      /* Ensures the content is not revealed until the animation */
+      border-right: 0.15em solid #7AA9B6;
+      /* The typwriter cursor */
+      margin: 0 auto 16px;
+      /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em;
+      /* Adjust as needed */ }
+      @media screen and (max-width: 767px) {
+        .index .typewriter h2 {
+          font-size: 22px; } }
+      .index .typewriter h2:nth-child(1) {
+        animation: typing 4s steps(30, end), blink-caret 0.5s step-end 8;
+        animation-fill-mode: forwards; }
+      .index .typewriter h2:nth-child(2) {
+        animation: 4s typing steps(20, end) backwards, blink-caret 0.5s step-end 8 both;
+        animation-delay: 4.5s; }
+      .index .typewriter h2:nth-child(3) {
+        animation: 4s typing steps(20, end) backwards, blink-caret 0.5s step-end 8 both;
+        animation-delay: 8.5s; }
+      .index .typewriter h2:nth-child(4) {
+        animation: 4s typing steps(20, end), blink-caret 0.5s step-end infinite;
+        animation-delay: 12.5s;
+        animation-fill-mode: backwards; }
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent; }
+  50% {
+    border-color: #7AA9B6; } }
+
 @keyframes launch {
   0% {
-    transform: translateY(500px); }
+    transform: translateY(-800px); }
   100% {
-    transform: translateY(-500px); } }
+    transform: translateY(200px); } }
+
+@keyframes launchMb {
+  0% {
+    transform: translateY(100px); }
+  100% {
+    transform: translateY(-1000px); } }
 
 .rocket {
-  animation: launch 30s ease-in-out infinite normal;
+  animation: launch 20s ease-in-out infinite alternate-reverse;
   height: 300px;
   z-index: 999;
   position: fixed; }
+  @media screen and (max-width: 767px) {
+    .rocket {
+      height: 250px;
+      position: absolute;
+      bottom: -110px;
+      left: -18px;
+      animation: launchMb 10s ease-in-out;
+      animation-iteration-count: 1; } }
 
 .skills {
   /***********************
@@ -304,7 +375,7 @@ body {
   *
   */ }
   .skills .info {
-    margin: 64px auto 80px;
+    margin: 64px auto 0;
     width: 100%;
     opacity: 0.6; }
   .skills .items {
@@ -314,7 +385,8 @@ body {
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
-    margin-bottom: 80px; }
+    width: 80%;
+    margin: 0 auto 80px; }
   .skills .item1 {
     --animation: neon1;
     --color: cyan;
@@ -828,6 +900,9 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   /* media queries */ }
+  @media screen and (max-width: 1200px) {
+    .portfolio {
+      justify-content: center; } }
   .portfolio .portfolio-card .card {
     height: 100%;
     border: none;
@@ -925,6 +1000,12 @@ body {
     .about {
       width: 100%;
       padding: 24px; } }
+  .about-title {
+    width: 70%;
+    margin: 0 auto; }
+    @media screen and (max-width: 767px) {
+      .about-title {
+        width: 100%; } }
   .about.hobbies {
     display: flex;
     flex-direction: row;
@@ -933,12 +1014,33 @@ body {
     .about.hobbies img {
       width: 24px;
       height: 24px;
-      vertical-align: sub;
+      vertical-align: bottom;
       margin-right: 8px; }
 
-.hobbies-title {
-  width: 70%;
-  margin: 0 auto; }
+.contact #social-sidebar {
+  right: 60%; }
+  @media screen and (max-width: 767px) {
+    .contact #social-sidebar {
+      right: 70%;
+      position: absolute;
+      top: 35%; } }
+  .contact #social-sidebar li a {
+    width: auto;
+    text-align: right;
+    padding-right: 16px;
+    transform: scale(2); }
+    .contact #social-sidebar li a:hover span {
+      left: 102%;
+      transition: 1s; }
+    @media screen and (max-width: 767px) {
+      .contact #social-sidebar li a span {
+        left: 106%;
+        opacity: 1; } }
+  .contact #social-sidebar li:nth-child(2) a {
+    top: 48px;
+    padding-right: 18px; }
+  .contact #social-sidebar li:nth-child(3) a {
+    top: 96px; }
 
 /* Make clicks pass-through */
 #nprogress {
@@ -8199,7 +8301,8 @@ a.text-dark:hover, a.text-dark:focus {
     .portfolio-app .header_left {
       width: 40%; }
   .portfolio-app .header-mb {
-    color: #fff; }
+    color: #fff;
+    z-index: 9; }
     .portfolio-app .header-mb .navbar-toggler {
       border-color: rgba(255, 255, 255, 0.5);
       width: 40px;
