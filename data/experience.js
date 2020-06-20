@@ -1,76 +1,110 @@
 const experience = [
     {
-        'image': '/images/trich.gif',
-        'title': 'trich.ai',
-        'description': 'Institutional website created for the company trich.ai.',
+        'image': '/images/cvc.png',
+        'title': 'Front-End Engineer @ CVC Corp',
+        'description': `I've Worked with a squad  is responsible for all home pages products, ensuring a good user experience, and conquer new users causing a great first impression. 
+            Currently working in a squad integrated with an Argentine company, Almundo, restructuring the products of Circuit and Cruises, and integrating with CVC Viagens. 
+            Technologies: React, Material UI, Jenkins, Angular 8, Redux.`,
+        'link': 'https://platform.cvc.com.br/',
+        'badges': [
+            'Jan 2020',
+            'Present',
+        ]
+    },
+    {
+        'image': '/images/trich.png',
+        'title': 'Software Engineer @ trich.ai',
+        'description': `Developing data visualization platforms with Plotly/Dash. 
+            Developing an open source Dash component library (link bellow). 
+            Technologies: Python, Plotly Dash, React, CSS.`,
         'link': 'https://trich.ai',
-        'git': 'https://github.com/romanonatacha/trich.ai',
         'badges': [
-            'React',
-            'SASS',
-            'Materialize'
+            'May 2020',
+            'Present',
         ]
     },
     {
-        'image': '/images/weather.gif',
-        'title': 'Weather Forecast',
-        'description': 'Personal weather forecasting project. The application makes a query in an API and returns the values of the weather forecast of the city that was consulted.',
-        'link': 'https://romanonatacha.github.io/weather-forecast/',
-        'git': 'https://github.com/romanonatacha/weather-forecast',
+        'image': '/images/valtech.png',
+        'title': 'Front-End Developer @ Valtech',
+        'description': `Acting as a front-end developer in advertising
+            campaigns, creating landing pages and email
+            marketing and support projects.`,
+        'link': 'https://www.valtech.com/',
         'badges': [
-            'React',
-            'SASS',
-            'Open Weather Map API'
+            'July 2019',
+            'Jan 2020',
         ]
     },
     {
-        'image': '/images/artists.gif',
-        'title': 'Artists Info',
-        'description': 'Personal project. The application makes a query in an API of artists, and returns information about the artist that was consulted, such as hometown, musical genre, discography and biography.',
-        'link': 'https://romanonatacha.github.io/artists-info',
-        'git': 'https://github.com/romanonatacha/artists-info',
+        'image': '/images/itelios.png',
+        'title': 'Front-End Developer @ ITELIOS',
+        'description': `Projects: L'oreal - (SalesForce Commerce Cloud), 
+            Medecins Sans Frontieres - (Drupal), 
+            SocialProtection.org - (Drupal), 
+            Big Tires/Binocolo - (Magento)`,
+        'link': 'http://www.itelios.com.br/',
         'badges': [
-            'React',
-            'SASS',
-            'The AudioDB API'
+            'Dec 2018',
+            'July 2019',
         ]
     },
     {
-        'image': '/images/trich-p.gif',
-        'title': 'trich.ai portfolio',
-        'description': 'Portfolio built for the company trich.ai, to show the projects carried out by the company.',
-        'link': 'https://trich-portfolio.herokuapp.com/',
-        'git': 'https://github.com/romanonatacha/trich-portfolio',
+        'image': '/images/originalmy.png',
+        'title': "Front-End Developer @ OriginalMy Blockchain",
+        'description': `Startup accelerated by Google. 
+            Responsible for layout and front-end adjustments of the platform, also creation of new interfaces for new projects. 
+            Tools and Frameworks used: 
+            HTML5, CSS3, JavaScript, Node.js, Bootstrap, jQuery, Git, SASS, BEM, Gulp, AngularJS, Angular 6, ReactJS`,
+        'link': 'https://originalmy.com/',
         'badges': [
-            'Python',
-            'Plotly Dash',
-            'CSS'
+            'May 2018',
+            'Nov 2018',
         ]
     },
     {
-        'image': '/images/map.gif',
-        'title': "Vila Pompeia Food n' Bar",
-        'description': 'Personal project. The application uses the Google Maps API and the Fousquare API, makes a query according to the neighborhood "Vila Pompeia", and returns the bars and restaurants in the region, also includes a filter to do the search by the name of the establishment.',
-        'link': 'https://romanonatacha.github.io/vila-pompeia-map',
-        'git': 'https://github.com/romanonatacha/vila-pompeia-map',
+        'image': '/images/zlab.png',
+        'title': 'Freelancer @ Z.lab',
+        'description': `Freelance services of Web Design, WordPress Websites, 
+            Graphic Design and Social Media.`,
+        'link': 'https://www.instagram.com/zlaboratorio/',
         'badges': [
-            'React',
-            'Google Maps API',
-            'Foursquare API'
+            'Oct 2016',
+            'May 2018',
         ]
     },
     {
-        'image': '/images/library.gif',
-        'title': 'Dash trich components',
-        'description': 'Ope source library UI components from the company trich.ai, to be used in Dash applications.',
-        'link': 'https://romanonatacha.github.io/dash_trich_components/',
-        'git': 'https://github.com/romanonatacha/dash_trich_components',
+        'image': '/images/sk.png',
+        'title': 'Graphic Design and Marketing Assistant @ Sergio K.',
+        'description': `Social Media Management, Visual Merchandising, Graphic Design and photo editing. 
+            Responsible for all the graphic design and marketing of the stores, including lookbook layout, sticker design, tote bags, social networking gear, store events.`,
+        'link': 'https://www.sergiok.com.br/',
         'badges': [
-            'Python',
-            'React',
-            'Plotly Dash'
+            'July 2015',
+            'Oct 2016',
         ]
-    }
+    },
+    {
+        'image': '/images/lead.png',
+        'title': 'Graphic Design and Marketing Assistant @ Lead Commerce',
+        'description': `Social Media Management, Graphic Design and Photo editing. 
+            Photography studio for ecommerce, where I was responsible for 
+            digital marketing and photo editing.`,
+        'link': 'https://www.leadcommerce.com.br/',
+        'badges': [
+            'Feb 2015',
+            'June 2015',
+        ]
+    },
+    {
+        'image': '/images/awk.png',
+        'title': 'Founder @ Awkward Clothing',
+        'description': `My own brand of T-shirts, clothing and accessories, where I did everything by myself, from the creation of the logo, the online store, to the purchase of material, search for confections, design of prints, manual work with tie-dye, digital marketing, photographic editorials, sale of products in events.`,
+        'link': 'https://www.instagram.com/awkward.clothing/',
+        'badges': [
+            'May 2014',
+            'Feb 2015',
+        ]
+    },
 ]
 
 export default experience

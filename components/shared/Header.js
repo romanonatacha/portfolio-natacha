@@ -43,7 +43,7 @@ export default class Header extends Component {
                     <div className="header_right text-right light">
                         {menu.map((item, i) => (
                             <Link key={i} href={item.url}>
-                                <a className="padding16">{item.title}</a>
+                                <a className="padding16 inline-block">{item.title}</a>
                             </Link>
                         ))}
                         <div className="padding16 inline">
