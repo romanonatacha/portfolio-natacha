@@ -1,76 +1,104 @@
 const education = [
     {
-        'image': '/images/trich.gif',
-        'title': 'trich.ai',
-        'description': 'Institutional website created for the company trich.ai.',
-        'link': 'https://trich.ai',
-        'git': 'https://github.com/romanonatacha/trich.ai',
+        'image': '/images/uniciv.png',
+        'title': 'Software Engineering Postgraduate @ UNICIV',
+        'description': `Agile Methodologies, Software Quality, Business
+        Intelligence, Clean Code Quality, Software Testing,
+        Leadership and People Management, Strategic Business
+        Communication, Design Patterns, Usability Engineering,
+        Alternative Architecture and Data Model, Configuration,
+        Version Control, and Change Management, Requirements
+        Analysis and Specification.`,
         'badges': [
-            'React',
-            'SASS',
-            'Materialize'
+            'Nov 2019',
+            'Aug 2020',
         ]
     },
     {
-        'image': '/images/weather.gif',
-        'title': 'Weather Forecast',
-        'description': 'Personal weather forecasting project. The application makes a query in an API and returns the values of the weather forecast of the city that was consulted.',
-        'link': 'https://romanonatacha.github.io/weather-forecast/',
-        'git': 'https://github.com/romanonatacha/weather-forecast',
+        'image': '/images/udacity.png',
+        'title': 'React Nanodegree @ Udacity',
+        'description': `Description: In this Nanodegree program, you'll learn how
+        to build declarative user interfaces for the web with React,
+        and for iOS and Android with React Native. You'll also
+        learn how to manage state more predictably in your
+        applications with Redux.`,
         'badges': [
-            'React',
-            'SASS',
-            'Open Weather Map API'
+            'Jan 2019',
+            'Apr 2019',
         ]
     },
     {
-        'image': '/images/artists.gif',
-        'title': 'Artists Info',
-        'description': 'Personal project. The application makes a query in an API of artists, and returns information about the artist that was consulted, such as hometown, musical genre, discography and biography.',
-        'link': 'https://romanonatacha.github.io/artists-info',
-        'git': 'https://github.com/romanonatacha/artists-info',
+        'image': '/images/usp.png',
+        'title': 'Introduction to Computer Science with Python @ USP - Coursera',
+        'description': `Introductory concepts of Computer Science and development of small programs in the Python language.
+
+        The main objective is to develop the rationale applied to the formulation and resolution of computational problems. The act of programming is a useful tool for working on this reasoning, as well as making more concrete other common concepts in Computer Science.`,
         'badges': [
-            'React',
-            'SASS',
-            'The AudioDB API'
+            'Apr 2019',
+            'Oct 2019',
         ]
     },
     {
-        'image': '/images/trich-p.gif',
-        'title': 'trich.ai portfolio',
-        'description': 'Portfolio built for the company trich.ai, to show the education carried out by the company.',
-        'link': 'https://trich-portfolio.herokuapp.com/',
-        'git': 'https://github.com/romanonatacha/trich-portfolio',
+        'image': '/images/udacity.png',
+        'title': 'Advanced Web Front-End Nanodegree @ Udacity',
+        'description': `Web Foundations, Web Accessibility, Object-Oriented
+        JavaScript, JavaScript Tools & Testing and Front-End
+        Applications.`,
         'badges': [
-            'Python',
-            'Plotly Dash',
-            'CSS'
+            'Sept 2018',
+            'Dec 2018',
         ]
     },
     {
-        'image': '/images/map.gif',
-        'title': "Vila Pompeia Food n' Bar",
-        'description': 'Personal project. The application uses the Google Maps API and the Fousquare API, makes a query according to the neighborhood "Vila Pompeia", and returns the bars and restaurants in the region, also includes a filter to do the search by the name of the establishment.',
-        'link': 'https://romanonatacha.github.io/vila-pompeia-map',
-        'git': 'https://github.com/romanonatacha/vila-pompeia-map',
+        'image': '/images/tth.png',
+        'title': 'Front-End Web Development @ Team Tree House',
+        'description': `I've learn how to build beautiful, interactive websites by
+        learning the fundamentals of HTML, CSS, and JavaScript —
+        three common coding languages on which all modern
+        websites are built.`,
         'badges': [
-            'React',
-            'Google Maps API',
-            'Foursquare API'
+            'Jan 2018',
+            'Apr 2018',
         ]
     },
     {
-        'image': '/images/library.gif',
-        'title': 'Dash trich components',
-        'description': 'Ope source library UI components from the company trich.ai, to be used in Dash applications.',
-        'link': 'https://romanonatacha.github.io/dash_trich_components/',
-        'git': 'https://github.com/romanonatacha/dash_trich_components',
+        'image': '/images/udacity.png',
+        'title': 'Digital Marketing Nanodegree @ Udacity',
+        'description': `The program covers topics such as content strategy, social
+        media marketing and advertising, search engine optimization
+        and marketing (SEO & SEM), email marketing, measurement
+        and optimization with Google Analytics, and more.`,
         'badges': [
-            'Python',
-            'React',
-            'Plotly Dash'
+            'July 2017',
+            'Oct 2017',
         ]
-    }
+    },
+    {
+        'image': '/images/ual.png',
+        'title': "Fashion Design @ Central Saint Martins",
+        'description': `Summer Study Abroad at University of the Arts London`,
+        'badges': [
+            'July 2013',
+        ]
+    },
+    {
+        'image': '/images/fasm.png',
+        'title': 'Fashion Design @ Faculdade Santa Marcelina',
+        'description': `Bachelor`,
+        'badges': [
+            'Feb 2010',
+            'Dec 2014',
+        ]
+    },
+    {
+        'image': '/images/obj.png',
+        'title': 'Colégio Objetivo',
+        'description': `Preschool, Elementary School, Middle School and High School`,
+        'badges': [
+            'Feb 1995',
+            'Dec 2009',
+        ]
+    },
 ]
 
 export default education
