@@ -165,7 +165,7 @@ body {
   @media screen and (max-width: 767px) {
     .portfolio-app .boxed {
       width: 100%;
-      padding-top: 40px; }
+      padding-top: 40px !important; }
     .portfolio-app .mb_hide {
       display: none !important; }
     .portfolio-app .font-xl {
@@ -180,7 +180,8 @@ body {
       font-size: 12px; } }
   @media screen and (max-width: 1200px) {
     .portfolio-app .boxed {
-      width: 90%; } }
+      width: 90%;
+      padding-top: 170px; } }
 
 .portfolio-app.dark-mode {
   background-color: #232323; }
@@ -8273,15 +8274,14 @@ a.text-dark:hover, a.text-dark:focus {
 .portfolio-app {
   width: 100%; }
   .portfolio-app .header {
-    width: 100%;
+    width: 70%;
     display: flex;
     position: fixed;
-    left: 0;
     right: 0;
     z-index: 9; }
     .portfolio-app .header_right {
       width: 100%;
-      padding: 40px 64px; }
+      padding: 24px 64px; }
       .portfolio-app .header_right .toggle-mode {
         border: none;
         border-radius: 16px;

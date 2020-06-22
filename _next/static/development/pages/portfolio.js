@@ -2979,7 +2979,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 
 /***/ }),
 
-/***/ 8:
+/***/ 10:
 /*!*********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fportfolio&absolutePagePath=%2Fhome%2Fnatacha%2FDocuments%2Fcode%2Fportfolio-natacha%2Fpages%2Fportfolio.js ***!
   \*********************************************************************************************************************************************************/
@@ -3002,4 +3002,4 @@ eval("module.exports = dll_5030f387d328e4415785;//# sourceURL=[module]\n//# sour
 
 /***/ })
 
-},[[8,"static/runtime/webpack.js"]]]);
+},[[10,"static/runtime/webpack.js"]]]);
