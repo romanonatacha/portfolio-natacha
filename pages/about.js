@@ -33,32 +33,71 @@ export default class About extends Component {
                                 </p>
                             </div>
                         </div>
+                        <div className="about-title default light bottom16">LANGUAGES</div>
+                        <div className="about info uppercase padding24 bottom64">
+                            <span className="padding4 font-sm">
+                                English
+                                <i class="fas font-lg icon fa-battery-full"></i>
+                            </span>
+                            <span className="padding4 font-sm">
+                                Spanish
+                                <i class="fas font-lg icon fa-battery-half"></i>
+                            </span>
+                            <span className="padding4 font-sm">
+                                Portuguese
+                                <i class="fas font-lg icon fa-battery-full"></i>
+                            </span>
+                        </div>
+                        <div className="about-title default light bottom16">SOFT SKILLS</div>
+                        <div className="about info uppercase padding24 font-xs light bottom64">
+                            <span className="padding4">
+                                fast learning
+                            </span>
+                            <span className="padding4">
+                                self-learning
+                            </span>
+                            <span className="padding4">
+                                responsible
+                            </span>
+                            <span className="padding4">
+                                organized
+                            </span>
+                            <span className="padding4">
+                                Punctual
+                            </span>
+                            <span className="padding4">
+                                Meticulous
+                            </span>
+                            <span className="padding4">
+                                Proactive
+                            </span>
+                        </div>
                         <div className="about-title default light bottom16">HOBBIES</div>
-                        <div className="about hobbies uppercase padding24 font-xs light">
+                        <div className="about info uppercase padding24 font-xs light">
                             <span className="padding4">
                                 <img src="/images/planet.svg" />
-                            astronomy
-                        </span>
+                                        astronomy
+                                </span>
                             <span className="padding4">
                                 <img src="/images/science.svg" />
-                            science
-                        </span>
+                                        science
+                                 </span>
                             <span className="padding4">
                                 <img src="/images/tech.svg" />
-                            tech
-                        </span>
+                                        tech
+                                </span>
                             <span className="padding4">
                                 <img src="/images/rockets.svg" />
-                            missions
-                        </span>
+                                        missions
+                                </span>
                             <span className="padding4">
                                 <img src="/images/music.svg" />
-                            music
-                        </span>
+                                        music
+                                </span>
                             <span className="padding4">
                                 <img src="/images/yoga.svg" />
-                            yoga
-                        </span>
+                                        yoga
+                                </span>
                         </div>
                     </div>
                 </BaseLayout>

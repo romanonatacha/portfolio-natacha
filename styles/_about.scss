@@ -16,7 +16,7 @@
         }
     }
     
-    &.hobbies {
+    &.info {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -26,6 +26,11 @@
             height: 24px;
             vertical-align: bottom;
             margin-right: 8px;
+        }
+
+        .icon {
+            vertical-align: bottom;
+            margin-left: $gutter;
         }
     }
     
