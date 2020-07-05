@@ -62,7 +62,7 @@ const projects = [
     {
         'image': '/images/library.gif',
         'title': 'Dash trich components',
-        'description': 'Ope source library UI components from the company trich.ai, to be used in Dash applications.',
+        'description': 'Open source library of UI components from the company trich.ai, to be used in Dash applications.',
         'link': 'https://romanonatacha.github.io/dash_trich_components/',
         'git': 'https://github.com/romanonatacha/dash_trich_components',
         'badges': [
