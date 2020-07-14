@@ -70,6 +70,18 @@ const projects = [
             'React',
             'Plotly Dash'
         ]
+    },
+    {
+        'image': '/images/shorturl.gif',
+        'title': 'trich.ai shorturl',
+        'description': 'URL shortening application.',
+        'link': 'https://romanonatacha.github.io/url-shortening/',
+        'git': 'https://github.com/romanonatacha/url-shortening',
+        'badges': [,
+            'React',
+            'SASS',
+            'rel.ink API'
+        ]
     }
 ]
 
