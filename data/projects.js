@@ -12,6 +12,17 @@ const projects = [
         ]
     },
     {
+        'image': '/images/sc.gif',
+        'title': 'saturday cartoons',
+        'description': "Research and design based creative service agency. It's an art studio that will host shows with likeminded creatives in the community. It's a marketplace to find one of kind objects and limited run merchandise.",
+        'link': 'https://saturday-cartoons.com',
+        'badges': [
+            'React',
+            'Next.js',
+            'SASS',
+        ]
+    },
+    {
         'image': '/images/weather.gif',
         'title': 'Weather Forecast',
         'description': 'Personal weather forecasting project. The application makes a query in an API and returns the values of the weather forecast of the city that was consulted.',
