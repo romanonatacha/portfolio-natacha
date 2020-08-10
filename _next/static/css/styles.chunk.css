@@ -1035,7 +1035,7 @@ body {
     transform: scale(2); }
     .contact #social-sidebar li a:hover span {
       left: 102%;
-      transition: 1s; }
+      transition: 0.5s; }
     @media screen and (max-width: 767px) {
       .contact #social-sidebar li a span {
         left: 106%;
@@ -1044,7 +1044,10 @@ body {
     top: 48px;
     padding-right: 18px; }
   .contact #social-sidebar li:nth-child(3) a {
-    top: 96px; }
+    top: 96px;
+    padding-right: 13px; }
+  .contact #social-sidebar li:nth-child(4) a {
+    top: 145px; }
 
 /* Make clicks pass-through */
 #nprogress {
