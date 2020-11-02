@@ -6,7 +6,7 @@
 
         &_right {
             background-color: $black;
-            color: white;
+            color: $white;
 
             .toggle-mode {
                 background: $black2;
@@ -40,9 +40,13 @@
 
     .base {
 
+        .title {
+            color: $white;
+        }
+
         &_right {
             background-color: $black;
-            color: white;
+            color: $white;
         }
 
         &_left {
@@ -78,11 +82,7 @@
     }
 
     .about {
-        background-color: $secondary-light;
-        color: $black2
-    }
-
-    .footer {
-        background-color: $terciary-light;
+        background-color: $black2;
+        color: $white
     }
 }

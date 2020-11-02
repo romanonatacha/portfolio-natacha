@@ -48,7 +48,7 @@ const MyApp = ({ Component, pageProps }) => {
     //     modeState = false;
     // }
 
-    const [darkMode, setDarkMode] = useState(true)
+    const [darkMode, setDarkMode] = useState(false)
 
     const handleClick = () => {
         setDarkMode(prevMode => !prevMode)

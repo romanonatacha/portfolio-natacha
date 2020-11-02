@@ -1,73 +1,76 @@
 const skills = [
     {
         name: 'html',
-        class: 'item1',
-        bar: 'bar-100 cyan'
+        bar: 'bar-100'
     },
     {
         name: 'javascript',
-        class: 'item2',
-        bar: 'bar-75 yellow'
+        bar: 'bar-75'
     },
     {
         name: 'css',
-        class: 'item3',
-        bar: 'bar-100 magenta'
+        bar: 'bar-100'
     },
     {
         name: 'react',
-        class: 'item1',
-        bar: 'bar-75 cyan'
+        bar: 'bar-75'
+    },
+    {
+        name: 'next.js',
+        bar: 'bar-75'
+    },
+    {
+        name: 'gatsby',
+        bar: 'bar-75'
     },
     {
         name: 'angular',
-        class: 'item2',
-        bar: 'bar-50 yellow'
+        bar: 'bar-50'
     },
     {
         name: 'jquery',
         class: 'item3',
-        bar: 'bar-75 magenta'
+        bar: 'bar-75'
     },
     {
         name: 'python',
-        class: 'item1',
-        bar: 'bar-24 cyan'
+        bar: 'bar-24'
     },
     {
         name: 'bootstrap',
-        class: 'item2',
-        bar: 'bar-75 yellow'
+        bar: 'bar-75'
     },
     {
         name: 'dash',
-        class: 'item3',
-        bar: 'bar-25 magenta'
+        bar: 'bar-25'
     },
     {
         name: 'git',
-        class: 'item1',
-        bar: 'bar-75 cyan'
+        bar: 'bar-75'
     },
     {
         name: 'sass',
-        class: 'item2',
-        bar: 'bar-75 yellow'
+        bar: 'bar-75'
     },
     {
         name: 'gulp',
-        class: 'item3',
-        bar: 'bar-50 magenta'
+        bar: 'bar-50'
     },
     {
         name: 'node',
-        class: 'item1',
-        bar: 'bar-25 cyan'
+        bar: 'bar-25'
     },
     {
         name: 'typescript',
-        class: 'item2',
-        bar: 'bar-50 yellow'
+        bar: 'bar-50'
+    },
+    {
+        name: 'figma',
+        bar: 'bar-75'
+    },
+    {
+        name: 'graphql',
+        bar: 'bar-25'
     }
 ]
 

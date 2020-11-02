@@ -7,7 +7,7 @@ const BaseLayout = (props) => {
         <div>
             <div className={`base ${props.pageClass}`}>
                 <div className="base_left">
-                    <div className="text-right padding32 font-xl x-bold white uppercase title">{props.title}</div>
+                    <div className="text-right padding32 font-xl x-bold uppercase title">{props.title}</div>
                     <SocialBar />
                 </div>
                 <div className="base_right">

@@ -1,13 +1,12 @@
 const experience = [
     {
-        'image': '/images/cvc.png',
-        'title': 'Front-End Engineer @ CVC Corp',
-        'description': `I've Worked with a squad  is responsible for all home pages products, ensuring a good user experience, and conquer new users causing a great first impression. 
-            Currently working in a squad integrated with an Argentine company, Almundo, restructuring the products of Circuit and Cruises, and integrating with CVC Viagens. 
-            Technologies: React, Material UI, Jenkins, Angular 8, Redux.`,
-        'link': 'https://platform.cvc.com.br/',
+        'image': '/images/upwork.png',
+        'title': 'Front-End Developer @ Upwork | Top Rated Freelancer',
+        'description': `I'm a Top Rated freelancer at Upwork, working on projects all around the world with many different clients.
+        I mainly work with front-end web development and UX/UI design. Click here and hire me there!`,
+        'link': 'Hire me there: https://www.upwork.com/fl/romanonatacha',
         'badges': [
-            'Jan 2020',
+            'Jul 2020',
             'Present',
         ]
     },
@@ -21,6 +20,18 @@ const experience = [
         'badges': [
             'May 2020',
             'Present',
+        ]
+    },
+    {
+        'image': '/images/cvc.png',
+        'title': 'Front-End Engineer @ CVC Corp',
+        'description': `I've Worked with a squad  is responsible for all home pages products, ensuring a good user experience, and conquer new users causing a great first impression. 
+            Currently working in a squad integrated with an Argentine company, Almundo, restructuring the products of Circuit and Cruises, and integrating with CVC Viagens. 
+            Technologies: React, Material UI, Jenkins, Angular 8, Redux.`,
+        'link': 'https://platform.cvc.com.br/',
+        'badges': [
+            'Jan 2020',
+            'Sept 2020',
         ]
     },
     {

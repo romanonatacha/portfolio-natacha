@@ -62,8 +62,8 @@
     }
 
     .header-mb {
-        color: $white;
         z-index: 9;
+        color: $white;
 
         .navbar-toggler {
             border-color: rgba(255, 255, 255, 0.5%);
@@ -81,7 +81,7 @@
         }
 
         .toggle-mode {
-            border: none;
+            border: 2px solid $white;
             border-radius: 16px;
             background: transparent;
             width: 50px;
