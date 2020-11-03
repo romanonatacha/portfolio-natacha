@@ -1,14 +1,14 @@
 const projects = [
     {
-        'image': '/images/trich.gif',
-        'title': 'trich.ai',
-        'description': 'Institutional website created for the company trich.ai.',
-        'link': 'https://trich.ai',
-        'git': 'https://github.com/romanonatacha/trich.ai',
+        'image': '/images/wordpay.gif',
+        'title': 'Wordpay',
+        'description': "Danish media content payment platform. In this project I worked in front-end development, following a design on figma developed by a UX/UI Designer.",
+        'link': 'https://wordpay.io',
         'badges': [
-            'React',
+            'HTML',
+            'jQuery',
             'SASS',
-            'Materialize'
+            'Animate On Scroll Library'
         ]
     },
     {
@@ -20,6 +20,18 @@ const projects = [
             'React',
             'Next.js',
             'SASS',
+        ]
+    },
+    {
+        'image': '/images/trich.gif',
+        'title': 'trich.ai',
+        'description': 'Institutional website created for the company trich.ai.',
+        'link': 'https://trich.ai',
+        'git': 'https://github.com/romanonatacha/trich.ai',
+        'badges': [
+            'React',
+            'SASS',
+            'Materialize'
         ]
     },
     {
