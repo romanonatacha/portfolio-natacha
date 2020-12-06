@@ -1,5 +1,16 @@
 const projects = [
     {
+        'image': '/images/clarsynt.gif',
+        'title': 'Clarsynt',
+        'description': "In this project I worked in front-end development, and GraphQL integration for the content and the blog, following a design on figma developed by a UX/UI Designer.",
+        'link': 'https://clarsynt.com',
+        'badges': [
+            'Gatsby',
+            'GraphQL',
+            'SASS'
+        ]
+    },
+    {
         'image': '/images/wordpay.gif',
         'title': 'Wordpay',
         'description': "Danish media content payment platform. In this project I worked in front-end development, following a design on figma developed by a UX/UI Designer.",
