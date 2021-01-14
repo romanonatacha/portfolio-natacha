@@ -1,5 +1,16 @@
 const projects = [
     {
+        'image': '/images/steel.gif',
+        'title': 'Steel  Construções',
+        'description': "Institutional website for Brazilian construction company. In this project I worked creating the UX / UI in figma and developing the front-end and integrating Netlify's CMS for content management.",
+        'link': 'https://steelconstrucoes.com.br',
+        'badges': [
+            'Next.js',
+            'SASS',
+            'Netlify CMS'
+        ]
+    },
+    {
         'image': '/images/clarsynt.gif',
         'title': 'Clarsynt',
         'description': "In this project I worked in front-end development, and GraphQL integration for the content and the blog, following a design on figma developed by a UX/UI Designer.",
