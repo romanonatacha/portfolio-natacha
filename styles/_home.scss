@@ -68,7 +68,7 @@
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: $secondary-light }
+  50% { border-color: $terciary-light }
 }
 @keyframes launch {
     0% {transform: translateY(-800px);}
