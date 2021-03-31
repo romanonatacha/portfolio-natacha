@@ -57,6 +57,17 @@ const projects = [
         ]
     },
     {
+        'image': '/images/spacebudz.gif',
+        'title': 'SpaceBudz Analytics App',
+        'description': "Application that provides an analysis tool to evaluate NFT metadata at Cardano from several angles. On this project, I collaborated with the design and front-end development.",
+        'link': 'https://spacebudz-analytics.herokuapp.com/',
+        'badges': [
+            'Dash',
+            'Python',
+            'CSS'
+        ]
+    },
+    {
         'image': '/images/weather.gif',
         'title': 'Weather Forecast',
         'description': 'Personal weather forecasting project. The application makes a query in an API and returns the values of the weather forecast of the city that was consulted.',
