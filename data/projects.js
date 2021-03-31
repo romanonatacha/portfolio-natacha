@@ -1,24 +1,37 @@
 const projects = [
     {
-        'image': '/images/steel.gif',
-        'title': 'Steel  Construções',
-        'description': "Institutional website for Brazilian construction company. In this project I worked creating the UX / UI in figma and developing the front-end and integrating Netlify's CMS for content management.",
-        'link': 'https://steelconstrucoes.com.br',
+        'image': '/images/trich.gif',
+        'title': 'trich.ai',
+        'description': 'Institutional website created for the company trich.ai.',
+        'link': 'https://trich.ai',
+        'git': 'https://github.com/romanonatacha/trich.ai',
         'badges': [
-            'Next.js',
+            'React',
             'SASS',
-            'Netlify CMS'
+            'Materialize'
         ]
     },
     {
-        'image': '/images/clarsynt.gif',
-        'title': 'Clarsynt',
-        'description': "In this project I worked in front-end development, and GraphQL integration for the content and the blog, following a design on figma developed by a UX/UI Designer.",
-        'link': 'https://clarsynt.com',
+        'image': '/images/trich-p.gif',
+        'title': 'trich.ai portfolio',
+        'description': 'Portfolio built for the company trich.ai, to show the projects carried out by the company.',
+        'link': 'https://trich-portfolio.herokuapp.com/',
+        'git': 'https://github.com/romanonatacha/trich-portfolio',
         'badges': [
-            'Gatsby',
-            'GraphQL',
-            'SASS'
+            'Python',
+            'Plotly Dash',
+            'CSS'
+        ]
+    },
+    {
+        'image': '/images/sc.gif',
+        'title': 'saturday cartoons',
+        'description': "Research and design based creative service agency. It's an art studio that will host shows with likeminded creatives in the community. It's a marketplace to find one of kind objects and limited run merchandise.",
+        'link': 'https://saturday-cartoons.com',
+        'badges': [
+            'React',
+            'Next.js',
+            'SASS',
         ]
     },
     {
@@ -34,26 +47,14 @@ const projects = [
         ]
     },
     {
-        'image': '/images/sc.gif',
-        'title': 'saturday cartoons',
-        'description': "Research and design based creative service agency. It's an art studio that will host shows with likeminded creatives in the community. It's a marketplace to find one of kind objects and limited run merchandise.",
-        'link': 'https://saturday-cartoons.com',
+        'image': '/images/clarsynt.gif',
+        'title': 'Clarsynt',
+        'description': "In this project I worked in front-end development, and GraphQL integration for the content and the blog, following a design on figma developed by a UX/UI Designer.",
+        'link': 'https://clarsynt.com',
         'badges': [
-            'React',
-            'Next.js',
-            'SASS',
-        ]
-    },
-    {
-        'image': '/images/trich.gif',
-        'title': 'trich.ai',
-        'description': 'Institutional website created for the company trich.ai.',
-        'link': 'https://trich.ai',
-        'git': 'https://github.com/romanonatacha/trich.ai',
-        'badges': [
-            'React',
-            'SASS',
-            'Materialize'
+            'Gatsby',
+            'GraphQL',
+            'SASS'
         ]
     },
     {
@@ -65,6 +66,17 @@ const projects = [
             'Dash',
             'Python',
             'CSS'
+        ]
+    },
+    {
+        'image': '/images/steel.gif',
+        'title': 'Steel  Construções',
+        'description': "Institutional website for Brazilian construction company. In this project I worked creating the UX / UI in figma and developing the front-end and integrating Netlify's CMS for content management.",
+        'link': 'https://steelconstrucoes.com.br',
+        'badges': [
+            'Next.js',
+            'SASS',
+            'Netlify CMS'
         ]
     },
     {
@@ -89,18 +101,6 @@ const projects = [
             'React',
             'SASS',
             'The AudioDB API'
-        ]
-    },
-    {
-        'image': '/images/trich-p.gif',
-        'title': 'trich.ai portfolio',
-        'description': 'Portfolio built for the company trich.ai, to show the projects carried out by the company.',
-        'link': 'https://trich-portfolio.herokuapp.com/',
-        'git': 'https://github.com/romanonatacha/trich-portfolio',
-        'badges': [
-            'Python',
-            'Plotly Dash',
-            'CSS'
         ]
     },
     {
