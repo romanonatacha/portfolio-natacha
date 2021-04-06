@@ -38,7 +38,7 @@ const projects = [
         'image': '/images/wordpay.gif',
         'title': 'Wordpay',
         'description': "Danish media content payment platform. In this project I worked in front-end development, following a design on figma developed by a UX/UI Designer.",
-        'link': 'https://wordpay.io',
+        'link': 'https://site.wordpay.io',
         'badges': [
             'HTML',
             'jQuery',
