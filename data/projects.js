@@ -80,6 +80,17 @@ const projects = [
         ]
     },
     {
+        'image': '/images/massoterapia-sinai.gif',
+        'title': 'Centro de Massoterapia Sinai',
+        'description': "Institutional website for aesthetic and therapeutic massage center. On this project I worked by myself, since the design to deployment on Netlify.",
+        'link': 'https://massoterapiasinai.com.br',
+        'badges': [
+            'ReasctJS',
+            'SASS',
+            'Netlify'
+        ]
+    },
+    {
         'image': '/images/weather.gif',
         'title': 'Weather Forecast',
         'description': 'Personal weather forecasting project. The application makes a query in an API and returns the values of the weather forecast of the city that was consulted.',
