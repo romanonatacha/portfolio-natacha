@@ -85,7 +85,7 @@ const projects = [
         'description': "Institutional website for aesthetic and therapeutic massage center. On this project I worked by myself, since the design to deployment on Netlify.",
         'link': 'https://massoterapiasinai.com.br',
         'badges': [
-            'ReasctJS',
+            'ReactJS',
             'SASS',
             'Netlify'
         ]
